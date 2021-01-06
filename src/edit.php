@@ -74,7 +74,7 @@ include("func.php");
 				
 				$update = mysqli_query($koneksi, "UPDATE mahasiswa SET nama='$nama', tempat_lahir='$tmp', tanggal_lahir='$tgl', email='$email', jenis_kelamin='$jk', agama='$agama', jurusan='$jurusan', semester='$smt', tahun_masuk='$thn_masuk', alamat='$alamat', status='$status' WHERE nim='$nim'") or die(mysqli_error());
 				if($update){
-					header("Location: edit.php?nim=".$nim."pesan=sukses");
+					header("Location: edit.php?nim=".$nim."$pesan=sukses");
 				}else{
 					echo '<div class="alert alert-danger">Data gagal disimpan, silahkan coba lagi.</div>';
 				}
