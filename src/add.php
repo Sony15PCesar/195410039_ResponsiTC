@@ -163,9 +163,9 @@ include("func.php");
 						<select name="jurusan" class="form-control">
 							<option value="">JURUSAN</option>
 							<option value="Teknik Informatika">TEKNIK INFORMATIKA</option>
-							<option value="Teknik Sipil">KOMPUTER AKUNTANSI</option>
-							<option value="Ekonomi">TEKNIK KOMPUTER</option>
-							<option value="Perikanan">SISTEM INFORMASI</option>
+							<option value="Komputer Akuntansi">KOMPUTER AKUNTANSI</option>
+							<option value="Teknik Komputer">TEKNIK KOMPUTER</option>
+							<option value="Sistem Informasi">SISTEM INFORMASI</option>
 						</select>
 					</div>
 				</div>
