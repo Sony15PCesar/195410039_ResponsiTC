@@ -120,7 +120,7 @@ include("koneksi.php");
 								<a href="profile.php?nim='.$row['nim'].'" title="Lihat Detail"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
 								<a href="edit.php?nim='.$row['nim'].'" title="Rubah Data"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
 								<a href="password.php?nim='.$row['nim'].'" title="Ganti Password"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></a>
-								<a href="avatar.php?nim='.$row['nim'].'" title="Ganti Password"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a>
+								<a href="avatar.php?nim='.$row['nim'].'" title="Ganti Avatar"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a>
 								<a href="index.php?aksi=delete&nim='.$row['nim'].'" title="Hapus Data" onclick="return confirm(\'Yakin?\')"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
 							</td>
 						</tr>

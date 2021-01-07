@@ -78,11 +78,10 @@ include("func.php");
 				}else{
 					echo '<div class="alert alert-danger">Data gagal disimpan, silahkan coba lagi.</div>';
 				}
-			}
-			
 			if(isset($_GET['pesan']) == 'sukses'){
 				echo '<div class="alert alert-success">Data berhasil disimpan.</div>';
 			}
+		}
 			?>
 			<form class="form-horizontal" action="" method="post">
 				<div class="form-group">
